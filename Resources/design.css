@@ -65,6 +65,10 @@ body {
   height: 700px;
 } 
 
+.month {
+  margin-bottom: 20px;
+}
+
 img, .flavors{
   opacity: 0.9;
   color: seashell;

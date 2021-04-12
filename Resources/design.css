@@ -60,20 +60,23 @@ body {
   align-content: center;
 }
 
-.teamonth {
-  width: 100%;
+.tea {
+  width: 1000px;
   height: 700px;
+  display: inline-flex;
+
 } 
 
 .month {
   margin-bottom: 20px;
-  display: inline-flex;
+  display: inline-block;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+
 
 }
 
-img, .flavors{
+img, .berry, .rum, .donut, .myrtle, .bedford {
   opacity: 0.9;
   color: seashell;
   font-family: Helvetica;
@@ -90,10 +93,10 @@ img, .flavors{
 
 .text {
   height: 30px;
-  display: block;
+  display: inline-block;
   text-align: center;
   flex-wrap: nowrap;
-  line-height: 30px;
+  
 }
  
 .locations {

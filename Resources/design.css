@@ -63,17 +63,13 @@ body {
 .tea {
   width: 1000px;
   height: 700px;
-  display: inline-flex;
-
+  display: inline-block;
 } 
 
 .month {
   margin-bottom: 20px;
   display: inline-block;
-  justify-content: center;
-  flex-wrap: nowrap;
-
-
+  text-align: center;
 }
 
 img, .berry, .rum, .donut, .myrtle, .bedford {
@@ -91,12 +87,8 @@ img, .berry, .rum, .donut, .myrtle, .bedford {
   margin-bottom: 50px;
 }
 
-.text {
-  height: 30px;
-  display: inline-block;
-  text-align: center;
-  flex-wrap: nowrap;
-  
+.text, h2, h4 {
+  height: 20px;
 }
  
 .locations {
